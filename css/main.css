@@ -1,24 +1,13 @@
-/* banner */
-.site-main .site-banner .site-title h3{
+/* Banner */
+.site-title h3{
     font-weight: lighter;
 }
 
-.site-main .site-banner .site-title h1{
+.site-title h1{
     font-weight: bolder;
 }
 
 /* Image Showcase */
-/* .showcase-img{
-    background-image: url('/img/Showcase-img-temp.jpg');
-    background-size: cover;
-    min-height: 30rem;
-} */
-
 .showcase-img{
     max-width:100%;
-    /* max-height:100%; */
 }
-
-/* .showcase-text{
-    padding: 8rem;
-} */
