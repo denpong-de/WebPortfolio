@@ -15,3 +15,9 @@
 .youtube-embeds{
     margin: 5rem;
 }
+
+@media only screen and (max-width: 992px) {
+    .youtube-embeds{
+        margin: 0rem;
+    }
+  }
