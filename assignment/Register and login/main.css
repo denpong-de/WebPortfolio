@@ -1,0 +1,83 @@
+body{
+    background-color: #4a86e8;
+}
+
+.backgroundForm{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: 40em;
+    transform: translate(-50%, -50%);
+    background-color:white;
+    border-radius: 2em;
+}
+
+.backgroundFormLogin{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: 25em;
+    transform: translate(-50%, -50%);
+    background-color:white;
+    border-radius: 2em;
+}
+
+#myForm, #myLogin{
+    padding: 5%;
+    font-size: x-large;
+    font-family: sans-serif;
+    height: 40em;
+}
+
+.userInput{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 5%;
+    width: 100%;
+    padding-top: 12%;
+}
+
+.userInput input{
+    text-indent: 10px;
+}
+
+.button{
+    display: grid;
+    grid-template-columns: 69% 29%;
+    grid-column-gap: 2%;
+    padding-top: 35%;
+}
+
+.Register{
+    background-color: #4a86e8;
+    border: none;
+    color: white;
+}
+
+.Reset{
+    background-color: tomato;
+    border: none;
+    color: white;
+}
+
+input{
+    border-radius: 12px;
+    font-size: x-large;
+    background-color: white;
+    border-color: #919493;
+}
+
+legend{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+fieldset{
+    border-radius: 12px;
+}
+
+span{
+    color: tomato;
+}

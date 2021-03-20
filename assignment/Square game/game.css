@@ -1,0 +1,51 @@
+body{
+    background-color: #1c0026;
+    font-family: sans-serif;
+}
+
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    background-color: #33153f;
+    border-radius: 20px;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
+
+fieldset{
+    border-radius: 20px;
+    background-color: white;
+    border-style: none;
+}
+
+legend{
+    margin-top: -5%;
+    padding-top: 6%;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #d7514c;
+}
