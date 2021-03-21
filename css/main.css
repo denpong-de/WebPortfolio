@@ -12,6 +12,7 @@
     max-width:100%;
 }
 
+/* Project */
 .youtube-embeds{
     margin: 5rem;
 }
@@ -20,4 +21,8 @@
     .youtube-embeds{
         margin: 0rem;
     }
-  }
+}
+
+.project{
+    min-height: calc(100vh - 56px - 40px);
+}
